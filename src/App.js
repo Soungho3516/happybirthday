@@ -3,6 +3,7 @@ import csh1 from './csh2.jpg';
 import cake from './cakeicon.png';
 import './App.css';
 import Kakao from './map';
+import './Fonts/Font.css'
 
 function App() {
   return (
@@ -18,22 +19,13 @@ function App() {
         <div>
           <img src={csh1} className="App-logo"></img>
         </div>
-        <div>
+        <div style={{fontFamily: "GalMet KR"}}>
           조승희 첫번째 생일에 초대합니다.
           <br></br>
           <br></br>
         </div>
-        <div className="App-subtitle">
-          2024년 9월 28일 토요일 오후 1시
-        </div>
-        <div className="App-subtitle">
-          수원 마이어스
-          <br></br>
-          <br></br>
-          <br></br>
-        </div>
         <img src={cake} className='cake-logo'/>
-        <div className="App-subtitle">
+        <div className="App-subtitle" style={{fontFamily: "GalMet KR"}}>
           품에 안기도 조심스러웠던 승희가<br></br>
           어느새 사계절을 지나<br></br>
           첫 생일을 맞이했습니다.<br></br>
@@ -43,6 +35,37 @@ function App() {
           따뜻하고 지혜로운 아이로 키우겠습니다.<br></br>
           감사합니다.<br></br>
           승희 아빠 조성호 엄마 오수영<br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+        </div>
+        <div>오시는 길</div>
+        <div className="App-subtitle">
+          2024년 9월 28일 토요일 오후 1시
+        </div>
+        <div className="App-subtitle">
+          수원 마이어스
+        </div>
+        <div className="App-subtitle" style={{width:700, alignSelf:'center'}}>
+          <ul>
+            <li style={{textAlign: 'left'}}>
+              세류역에서 버스 82-1번 (수원버스터미널 하차) / 도보시 15분
+            </li>
+            <li style={{textAlign: 'left'}}>
+            수원역 6번출구에서 버스 환승 (수원버스터미널 하차)
+            </li>
+            <li style={{textAlign: 'left'}}>
+            분당선 망포역 하차 4번출구에서 버스 환승 (수원버스터미널 하차)
+            </li>
+          </ul>
+          <ul>
+            <li style={{textAlign: 'left'}}>
+              네비게이션: "마이어스" 또는 "0312675500" 입력
+            </li>
+            <li style={{textAlign: 'left'}}>
+            주소 검색: "권선동 1189" 또는 "경수대로 270" 입력
+            </li>
+          </ul>
         </div>
         <Kakao></Kakao>
 
