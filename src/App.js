@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import csh1 from './csh2.jpg'
+import csh1 from './csh2.jpg';
+import cake from './cakeicon.png';
 import './App.css';
 import Kakao from './map';
 
@@ -11,7 +12,7 @@ function App() {
         <div>
           24/09/28
         </div>
-        <div>
+        <div className="App-subtitle">
           SATURADY
         </div>
         <div>
@@ -22,19 +23,26 @@ function App() {
           <br></br>
           <br></br>
         </div>
-        <div>
+        <div className="App-subtitle">
           2024년 9월 28일 토요일 오후 1시
         </div>
-        <div>
+        <div className="App-subtitle">
           수원 마이어스
           <br></br>
           <br></br>
           <br></br>
         </div>
-        <div>
-          엄마 아빠의 아들로 태어나줘서 고마워<br></br>
-          그리고 건강하게 자라줘서 고마원<br></br>
-          앞으로도 건강하고 씩씩하게 자라주렴
+        <img src={cake} className='cake-logo'/>
+        <div className="App-subtitle">
+          품에 안기도 조심스러웠던 승희가<br></br>
+          어느새 사계절을 지나<br></br>
+          첫 생일을 맞이했습니다.<br></br>
+          따뜻한 관심과 사랑을 보내주신 덕에 <br></br>
+          예쁘고 건강하게 자랄 수 있었습니다.<br></br>
+          받은 사랑을 더 크게 나눌 줄 아는<br></br>
+          따뜻하고 지혜로운 아이로 키우겠습니다.<br></br>
+          감사합니다.<br></br>
+          승희 아빠 조성호 엄마 오수영<br></br>
         </div>
         <Kakao></Kakao>
 
