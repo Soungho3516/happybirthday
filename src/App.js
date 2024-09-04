@@ -41,7 +41,7 @@ function App() {
         </div>
         <div>오시는 길</div>
         <div className="App-subtitle">
-          2024년 9월 28일 토요일 오후 1시
+          2024년 9월 28일 토요일 오전 11시 30분
         </div>
         <div className="App-subtitle">
           수원 마이어스
