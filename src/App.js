@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import csh1 from './csh1.jpg'
+import csh1 from './csh2.jpg'
 import './App.css';
 
 function App() {
