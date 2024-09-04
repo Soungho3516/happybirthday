@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import csh1 from './csh2.jpg';
 import cake from './cakeicon.png';
+import MyGallery from './gallery.js';
 import './App.css';
 import Kakao from './map';
 import './Fonts/Font.css'
@@ -34,6 +35,7 @@ function App() {
           받은 사랑을 더 크게 나눌 줄 아는<br></br>
           따뜻하고 지혜로운 아이로 키우겠습니다.<br></br>
           감사합니다.<br></br>
+          <br></br>
           승희 아빠 조성호 엄마 오수영<br></br>
           <br></br>
           <br></br>
@@ -67,6 +69,10 @@ function App() {
             </li>
           </ul>
         </div>
+        <div className="App-header">
+        <MyGallery></MyGallery>
+        </div>
+        
         <Kakao></Kakao>
 
       </header>

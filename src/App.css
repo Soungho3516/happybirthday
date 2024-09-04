@@ -1,4 +1,5 @@
 @import url(Fonts/Font.css);
+@import "~react-image-gallery/styles/css/image-gallery.css";
 
 .App {
   text-align: center;
