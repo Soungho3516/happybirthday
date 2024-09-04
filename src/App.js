@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import csh1 from './csh2.jpg'
 import './App.css';
+import Kakao from './map';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           그리고 건강하게 자라줘서 고마원<br></br>
           앞으로도 건강하고 씩씩하게 자라주렴
         </div>
+        <Kakao></Kakao>
 
       </header>
     </div>
