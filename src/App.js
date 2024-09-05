@@ -45,7 +45,7 @@ function App() {
         <div className="App-header">
           <img src={csh9} style={{width: '100%'}}></img>
         </div>
-        <div style={{width: '500px', alignSelf:'center'}}>
+        <div style={{width: '90%', alignSelf:'center', maxWidth: '500px'}}>
         <MyGallery></MyGallery>
         </div>
         <br></br>
