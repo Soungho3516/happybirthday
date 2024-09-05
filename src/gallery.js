@@ -1,22 +1,24 @@
 import ImageGallery from 'react-image-gallery';
-import csh1 from './csh1.jpg';
-import csh2 from './csh2.jpg';
-import csh3 from './csh3.jpg';
-import csh4 from './csh4.jpg';
-import csh5 from './csh5.jpg';
-import csh6 from './csh6.jpg';
-import csh7 from './csh7.jpg';
-import csh8 from './csh8.jpg';
+import day1 from './galleryImg/1day.jpg';
+import day10 from './galleryImg/10day.jpg';
+import day50 from './galleryImg/50day.jpg';
+import day100 from './galleryImg/100day.jpg';
+import day150 from './galleryImg/150day.jpg';
+import day200 from './galleryImg/200day.jpg';
+import day250 from './galleryImg/250day.jpg';
+import day300 from './galleryImg/300day.jpg';
+import day350 from './galleryImg/350day.jpg';
 
 const images = [];
-images.push({ original: csh1, thumbnail: csh1});
-images.push({ original: csh2, thumbnail: csh2});
-images.push({ original: csh3, thumbnail: csh3});
-images.push({ original: csh4, thumbnail: csh4});
-images.push({ original: csh5, thumbnail: csh5});
-images.push({ original: csh6, thumbnail: csh6});
-images.push({ original: csh7, thumbnail: csh7});
-images.push({ original: csh8, thumbnail: csh8});
+images.push({ original: day1, thumbnail: day1});
+images.push({ original: day10, thumbnail: day10});
+images.push({ original: day50, thumbnail: day50});
+images.push({ original: day100, thumbnail: day100});
+images.push({ original: day150, thumbnail: day150});
+images.push({ original: day200, thumbnail: day200});
+images.push({ original: day250, thumbnail: day250});
+images.push({ original: day300, thumbnail: day300});
+images.push({ original: day350, thumbnail: day350});
 
 function MyGallery() {
     return(

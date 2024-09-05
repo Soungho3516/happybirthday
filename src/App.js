@@ -1,7 +1,4 @@
-import logo from './logo.svg';
-import csh1 from './csh2.jpg';
 import csh9 from './csh9.png';
-import cake from './cakeicon.png';
 import MyGallery from './gallery.js';
 import './App.css';
 import Kakao from './map';
@@ -24,7 +21,7 @@ function App() {
         <div className="App-subtitle">
           수원 마이어스
         </div>
-        <div className="App-subtitle" style={{width:700, alignSelf:'center'}}>
+        <div className="App-subtitle" style={{width:'100%', alignSelf:'center'}}>
           <ul>
             <li style={{textAlign: 'left'}}>
               세류역에서 버스 82-1번 (수원버스터미널 하차) / 도보시 15분
