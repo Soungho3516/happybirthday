@@ -21,6 +21,10 @@
 
 .App-subtitle {
   font-size: calc(5px + 2vmin);
+  text-align: center;
+  font-family: GalMet KR;
+  font-weight: 700;
+  max-width: 700px;
 }
 
 .App-header {

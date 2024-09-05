@@ -31,7 +31,6 @@ const AudioPlayer = () => {
         <source src="/audio/your-audio-file.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
-      <p>화면을 터치하면 음악이 재생되요~</p>
     </div>
   );
 };
