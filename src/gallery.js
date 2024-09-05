@@ -8,6 +8,7 @@ import day200 from './galleryImg/200day.jpg';
 import day250 from './galleryImg/250day.jpg';
 import day300 from './galleryImg/300day.jpg';
 import day350 from './galleryImg/350day.jpg';
+import year from './galleryImg/1year.png';
 
 const images = [];
 images.push({ original: day1, thumbnail: day1});
@@ -19,6 +20,7 @@ images.push({ original: day200, thumbnail: day200});
 images.push({ original: day250, thumbnail: day250});
 images.push({ original: day300, thumbnail: day300});
 images.push({ original: day350, thumbnail: day350});
+images.push({ original: year, thumbnail: year});
 
 function MyGallery() {
     return(
