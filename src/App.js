@@ -10,41 +10,8 @@ import './Fonts/Font.css'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        {/* <div>
-          24/09/28
-        </div>
-        <div className="App-subtitle">
-          SATURADY
-        </div>
-        <div>
-          <img src={csh1} className="App-logo"></img>
-        </div>
-        <div style={{fontFamily: "GalMet KR"}}>
-          조승희 첫번째 생일에 초대합니다.
-          <br></br>
-          <br></br>
-        </div>
-        <img src={cake} className='cake-logo'/>
-        <div className="App-subtitle" style={{fontFamily: "GalMet KR"}}>
-          품에 안기도 조심스러웠던 승희가<br></br>
-          어느새 사계절을 지나<br></br>
-          첫 생일을 맞이했습니다.<br></br>
-          따뜻한 관심과 사랑을 보내주신 덕에 <br></br>
-          예쁘고 건강하게 자랄 수 있었습니다.<br></br>
-          받은 사랑을 더 크게 나눌 줄 아는<br></br>
-          따뜻하고 지혜로운 아이로 키우겠습니다.<br></br>
-          감사합니다.<br></br>
-          <br></br>
-          승희 아빠 조성호 엄마 오수영<br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-        </div> */}
         <div className="App-header">
           <img src={csh9} style={{width: '100%'}}></img>
-        </div>
         <div style={{width: '90%', alignSelf:'center', maxWidth: '500px'}}>
         <MyGallery></MyGallery>
         </div>
@@ -78,11 +45,10 @@ function App() {
             </li>
           </ul>
         </div>
-        <div style={{width: '600px', alignSelf:'center'}}>
+        <div style={{width: '90%', alignSelf:'center', maxWidth: '500px'}}>
         <Kakao></Kakao>
         </div>
-
-      </header>
+        </div>
     </div>
   );
 }

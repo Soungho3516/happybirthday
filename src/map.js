@@ -25,7 +25,7 @@ function Kakao() {
     }, [])
     return (
         <div id="map" style={{
-            width: '500px',
+            width: '100%',
             height: '500px',
             alignSelf: 'center'
         }}></div>
