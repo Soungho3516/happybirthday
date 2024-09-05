@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import csh1 from './csh2.jpg';
+import csh9 from './csh9.png';
 import cake from './cakeicon.png';
 import MyGallery from './gallery.js';
 import './App.css';
@@ -11,7 +12,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <div>
+        {/* <div>
           24/09/28
         </div>
         <div className="App-subtitle">
@@ -40,7 +41,15 @@ function App() {
           <br></br>
           <br></br>
           <br></br>
+        </div> */}
+        <div className="App-header">
+          <img src={csh9} style={{width: '100%'}}></img>
         </div>
+        <div style={{width: '600px', alignSelf:'center'}}>
+        <MyGallery></MyGallery>
+        </div>
+        <br></br>
+        <br></br>
         <div>오시는 길</div>
         <div className="App-subtitle">
           2024년 9월 28일 토요일 오전 11시 30분
@@ -69,11 +78,9 @@ function App() {
             </li>
           </ul>
         </div>
-        <div className="App-header">
-        <MyGallery></MyGallery>
-        </div>
-        
+        <div style={{width: '600px', alignSelf:'center'}}>
         <Kakao></Kakao>
+        </div>
 
       </header>
     </div>

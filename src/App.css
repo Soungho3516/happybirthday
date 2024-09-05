@@ -22,10 +22,12 @@
 }
 
 .App-header {
-  background-color: #fff7f7;
+  background-color: #FFF8EE;
   min-height: 100vh;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
+  text-align: center;
   font-size: calc(12px + 2vmin);
   font-family: Verdana, Geneva, Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 700;
