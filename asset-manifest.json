@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/happybirthday/static/css/main.34d3c5a0.css",
-    "main.js": "/happybirthday/static/js/main.05b4ac25.js",
+    "main.css": "/happybirthday/static/css/main.fee2ccdc.css",
+    "main.js": "/happybirthday/static/js/main.5c016977.js",
     "static/js/453.0f790cc3.chunk.js": "/happybirthday/static/js/453.0f790cc3.chunk.js",
     "static/media/galmetgul.woff": "/happybirthday/static/media/galmetgul.945907c4a03067e6845f.woff",
     "static/media/300day.jpg": "/happybirthday/static/media/300day.b27843ba395908759062.jpg",
@@ -18,12 +18,12 @@
     "static/media/350day.jpg": "/happybirthday/static/media/350day.4517e19e5c6ddf965280.jpg",
     "static/media/cakeicon.png": "/happybirthday/static/media/cakeicon.83197e1e1f15f8f68dbc.png",
     "index.html": "/happybirthday/index.html",
-    "main.34d3c5a0.css.map": "/happybirthday/static/css/main.34d3c5a0.css.map",
-    "main.05b4ac25.js.map": "/happybirthday/static/js/main.05b4ac25.js.map",
+    "main.fee2ccdc.css.map": "/happybirthday/static/css/main.fee2ccdc.css.map",
+    "main.5c016977.js.map": "/happybirthday/static/js/main.5c016977.js.map",
     "453.0f790cc3.chunk.js.map": "/happybirthday/static/js/453.0f790cc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34d3c5a0.css",
-    "static/js/main.05b4ac25.js"
+    "static/css/main.fee2ccdc.css",
+    "static/js/main.5c016977.js"
   ]
 }
