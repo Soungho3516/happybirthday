@@ -22,6 +22,7 @@ function Kakao() {
             image: markerImg
         });
         marker.setMap(map);
+        map.setDraggable(false);
     }, [])
     return (
         <div id="map" style={{
